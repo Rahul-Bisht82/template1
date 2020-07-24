@@ -169,7 +169,7 @@
   text-transform: capitalize;
 }
 
-/* *************section 3*** */
+/* *************section 4*** */
 .section-4-bg {
   background-color: #f2f4f4;
   height: auto;
@@ -188,7 +188,7 @@
   line-height: 49px;
   color: #030303;
   font-weight: 600;
-  margin: 100px 0;
+  margin: 80px 0;
   text-align: center;
 }
 .section-4-bg .img-div {
@@ -198,12 +198,40 @@
   flex-direction: column;
 }
 .section-4-bg .img-div img {
-  height: 30vh;
+  height: 40vh;
   width: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .section-4-bg .center-div {
   margin: 50px 0;
+}
+
+/* ******media query 1024 ******** */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .section-part1 p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .section-3-bg {
+    height: 10vh;
+  }
+  .section-3-bg h1 {
+    font-size: 16px;
+  }
+  .section4-part1 h1 {
+    font-size: 19px;
+    line-height: 30px;
+    color: #030303;
+    font-weight: 600;
+    margin: 45px 0;
+    text-align: center;
+  }
+  .section-4-bg .img-div img {
+    height: 20vh;
+    width: 80%;
+    margin-bottom: 15px;
+  }
 }
 
 /* *****media query***** */
@@ -251,17 +279,17 @@
     text-align: center;
   }
   .contact1-div h1 {
-    font-size: 10px;
+    font-size: 12px;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
     background-color: blue;
-
+    margin: 0 13%;
     margin-top: 20px;
     padding: 10px 0px !important;
   }
   .contact1-div p {
-    font-size: 1.2rem;
+    font-size: 12px;
     color: black;
     font-weight: 300;
     text-align: center;
@@ -357,7 +385,7 @@
     text-align: center;
   }
   .section-4-bg .img-div img {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     margin-bottom: 10px;
   }
