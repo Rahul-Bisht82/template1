@@ -186,8 +186,7 @@
   align-items: center;
   flex-direction: column;
 }
-.section4-part1 {
-}
+
 .section4-part1 h1 {
   font-size: 35px;
   letter-spacing: 0px;
@@ -195,7 +194,7 @@
   line-height: 49px;
   color: #030303;
   font-weight: 600;
-  margin: 80px 0;
+  margin: 80px;
   text-align: center;
 }
 .section-4-bg .img-div {
@@ -213,44 +212,34 @@
   margin: 50px 0;
 }
 
-/* ******media query 1024 ******** */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .section-part1 p {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .section-3-bg {
-    height: 10vh;
-  }
-  .section-3-bg h1 {
-    font-size: 16px;
-  }
-  .section4-part1 h1 {
-    font-size: 19px;
-    line-height: 30px;
-    color: #030303;
-    font-weight: 600;
-    margin: 45px 0;
-    text-align: center;
-  }
-  .section-4-bg .img-div img {
-    height: 20vh;
-    width: 80%;
-    margin-bottom: 15px;
-  }
+/* ****************footer section******* */
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: #02045f;
+  color: #fff;
+}
+.footer-div p {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.footer-div h2 {
+  margin-right: 30px;
+  font-size: 22px;
 }
 
 /* *****media query***** */
 @media (max-width: 768px) {
   .section-part2 {
-    width: 100%;
     height: auto;
-    background: #03095f;
   }
   .section-part1 p {
     font-size: 17px;
-    letter-spacing: 0;
+
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
@@ -265,7 +254,7 @@
     text-align: center;
     background-color: blue;
     margin: 0 0px;
-    /* margin-top: 30px; */
+    margin-top: 20px;
     padding: 10px 0px !important;
   }
   .contact-div p {
@@ -279,8 +268,8 @@
 
   .section-part2 .heading-div {
     margin-top: 20px;
-    font-size: 23px;
-    /* letter-spacing: 01px; */
+    font-size: 21px;
+    letter-spacing: 1px;
     line-height: 32px;
     color: #ffff;
     font-weight: 800;
@@ -347,11 +336,10 @@
   .video-part {
     height: 200px;
     width: 100%;
-    /* border: 5px solid coral; */
+
     margin-left: 0px;
     margin-top: 10px;
     z-index: 2;
-    /* position: absolute; */
     top: 70%;
   }
   .video-part iframe {
@@ -366,6 +354,7 @@
   .text-area h1 {
     font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
   }
   .icon i {
     color: coral;
@@ -403,16 +392,25 @@
     text-transform: capitalize;
   }
   .section4-part1 h1 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
     color: #030303;
     font-weight: 800;
     margin: 50px 0;
-    text-align: center;
+    text-align: justify;
   }
   .section-4-bg .img-div img {
     height: auto;
     width: auto;
     margin-bottom: 10px;
+  }
+  /* ****************footer section******* */
+
+  .footer-div p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .footer-div h2 {
+    font-size: 14px;
   }
 }
