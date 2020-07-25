@@ -36,7 +36,7 @@
 }
 
 .section-part1 p {
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 1px;
   line-height: 50px;
   color: #ffffff;
@@ -52,7 +52,7 @@
 
 .section-part2 .heading-div {
   margin-top: 30px;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
   line-height: 40px;
   color: #ffff;
@@ -107,7 +107,7 @@
   z-index: 2;
 }
 .video-part iframe {
-  border: 10px solid red;
+  border: 10px solid #fff;
 }
 .text-area {
   text-align: center;
@@ -135,12 +135,15 @@
 }
 .section-bg2 .part-1 h1 {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: 700;
   padding: 61px 0 0 0;
+  text-transform: capitalize;
 }
 .section2-part1 p {
   margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 17px;
 }
 .section2-part1 p i {
   margin-right: 10px;
@@ -242,16 +245,17 @@
     background: #03095f;
   }
   .section-part1 p {
-    font-size: 10px;
+    font-size: 17px;
     letter-spacing: 0;
-    /* line-height: 40px; */
+    line-height: 22px;
     color: #ffffff;
     font-weight: 400;
     text-align: center;
+    padding: 12px 0 0 0;
   }
 
   .contact-div h1 {
-    font-size: 12px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
@@ -261,9 +265,9 @@
     padding: 10px 0px !important;
   }
   .contact-div p {
-    font-size: 12px;
+    font-size: 17px;
     color: black;
-    font-weight: 300;
+    font-weight: 800;
     text-align: center;
     margin-top: 10px;
     padding-bottom: 20px;
@@ -271,15 +275,15 @@
 
   .section-part2 .heading-div {
     margin-top: 20px;
-    font-size: 11px;
+    font-size: 23px;
     /* letter-spacing: 01px; */
-    line-height: 20px;
+    line-height: 32px;
     color: #ffff;
     font-weight: 800;
     text-align: center;
   }
   .contact1-div h1 {
-    font-size: 12px;
+    font-size: 19px;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
@@ -299,7 +303,7 @@
   .section-part2 p {
     color: #ffff;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -315,9 +319,9 @@
     filter: drop-shadow(2.673px 1.362px 1.5px rgba(0, 0, 0, 0.44));
   }
   .section-part2 .heading-div2 h2 {
-    font-size: 12px;
+    font-size: 19px;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 30px;
     color: #fff000;
     font-weight: 600;
     font-family: "Barlow";
@@ -347,8 +351,8 @@
   }
 
   .text-area h1 {
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
   }
   .icon i {
     color: coral;
@@ -363,30 +367,39 @@
   }
   .section-bg2 .part-1 h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 700;
     padding: 30px 0 0 0;
+  }
+
+  .section-3-bg {
+    height: 20vh;
+    width: 100%;
+    background-color: #02045f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .section-3-bg h1 {
     font-weight: 400;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: capitalize;
   }
   .section4-part1 h1 {
-    font-size: 11px;
-
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 25px;
     color: #030303;
-    font-weight: 600;
-    margin: 20px 0;
+    font-weight: 800;
+    margin: 50px 0;
     text-align: center;
   }
   .section-4-bg .img-div img {
-    height: 20vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     margin-bottom: 10px;
   }
 }
