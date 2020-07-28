@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,600&display=swap");
 
 * {
   margin: 0;
@@ -9,10 +9,10 @@
   font-family: "Barlow", sans-serif;
 }
 
-/* .row > * {
+footer .container-fluid .row > * {
   padding-right: 0;
   padding-left: 0;
-} */
+}
 /* .container,
 .container-fluid,
 .container-lg,
@@ -76,8 +76,8 @@
 }
 /* **********section 2************* */
 .section-2 {
-  background-color: #e1e1e1;
-  padding: 20px 0;
+  background-color: #afb1b3;
+  padding: 80px 0;
 }
 .section-2 h1,
 .section-4-part2 h1 {
@@ -91,7 +91,7 @@
 .section-2 p,
 .section-4-part2 p {
   font-size: 25px;
-  line-height: 50px;
+  line-height: 40px;
   color: #737373;
   font-weight: 500;
   font-family: "Nunito";
@@ -100,8 +100,8 @@
 }
 .section-2 .video-part iframe,
 .section-4-part2 .video-part iframe {
-  height: 500;
-  width: 80%;
+  height: 80vh;
+  width: 66%;
 }
 
 .section-2 .contact-div {
@@ -151,7 +151,7 @@
 
 /* *******section4******* */
 .section-4 {
-  background-color: #d7d7d7;
+  background-color: #e5e7e9;
 }
 .section-4 .section-4-part1 .contact-div {
   background-color: #002157;
@@ -181,7 +181,7 @@
 }
 /* *************section 5**** */
 .section-5 {
-  background-color: #f8f9f9;
+  background-color: #e5e7e9;
 }
 .section-5-part1 h1 {
   font-size: 50px;
@@ -195,7 +195,7 @@
 
 /* *************section 5**** */
 .section-6 {
-  background-color: #f8f9f9;
+  background-color: #e5e7e9;
   height: auto;
   width: 100%;
 }
@@ -216,7 +216,7 @@
 
 .list-items .list-group .list-group-item {
   border: none;
-  background-color: #f8f9f9;
+  background-color: #e5e7e9;
   font-weight: 600;
   font-size: 20px;
   font-family: "Barlow";
@@ -225,7 +225,7 @@
 }
 .list-items2 .list-group .list-group-item {
   border: none;
-  background-color: #f8f9f9;
+  background-color: #e5e7e9;
   font-weight: 600;
   font-size: 20px;
   font-family: "Barlow";
@@ -242,7 +242,7 @@ footer {
   align-items: center;
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   background-color: black;
   color: #fff;
 }
@@ -287,7 +287,7 @@ footer {
   }
   .section-1 .contact-div {
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
   }
   .section-2 h1,
   .section-4-part2 h1 {
@@ -321,7 +321,7 @@ footer {
     margin-top: 50px;
   }
   .section-3-part2 .img-div {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 20px;
   }
 
