@@ -402,6 +402,10 @@ footer {
   .section-3-div {
     margin: 30px 0;
   }
+  .section-3-div,
+  .section-4 {
+    height: auto;
+  }
   .section-3 h1 {
     font-size: 47px;
     line-height: 60px;
@@ -459,6 +463,12 @@ footer {
     width: 80%;
     background-image: none;
     padding-top: 10px;
+  }
+
+  .section-5-div,
+  .section-5-div2,
+  .section-5-div3 {
+    height: auto;
   }
   .section-6 .contact-div {
     width: 100%;
