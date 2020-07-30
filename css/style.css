@@ -8,25 +8,30 @@
   font-family: "Nunito", sans-serif;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right:0rem;
-    padding-left: 0rem;
-    margin-right: auto;
-    margin-left: auto;
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .row {
-    --bs-gutter-x: 0rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex: 1 0 100%;
-    flex-wrap: wrap;
-    margin-top: 0; 
-    margin-right: 0;
-     margin-left: 0;
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex: 1 0 100%;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
-
 
 footer .container-fluid .row > * {
   padding-right: 0;
@@ -76,6 +81,10 @@ footer .container-fluid .row > * {
   text-decoration: none;
 } */
 
+.align-items-center {
+  align-items: center !important;
+  padding: 0 10px 0 10px;
+}
 /*--------------------------------Section-1----------------------------*/
 .st001 {
   background: #3366ff;
@@ -127,17 +136,20 @@ footer .container-fluid .row > * {
   font-size: 30px;
 }
 .btn1 {
-  color: white;
-  background: #06067f;
+  font-size: 25px;
+  color: #06067f;
+  background: #ffffff;
   line-height: 2.3;
   padding: 5px 20px 5px 20px;
 }
-.btn1:hover,.btn2:hover{
+
+.btn2:hover {
   color: yellow;
 }
 .box2 {
   background: #d4d7ed;
   padding: 5px;
+  padding-top: 25px;
 }
 
 .btn2 {
@@ -203,7 +215,7 @@ footer .container-fluid .row > * {
 .st005 {
 }
 .st005 p {
-  font-size: 26px;
+  font-size: 27px;
   text-align: center;
   width: 60%;
   padding: 50px 0 30px 0;
@@ -229,7 +241,7 @@ footer .container-fluid .row > * {
   text-align: right;
 }
 .cpr p {
-  padding-top: 13px;
+  padding-top: 15px;
 }
 
 @media screen and (max-device-width: 640px), screen and (max-width: 767px) {
@@ -245,7 +257,7 @@ footer .container-fluid .row > * {
     font-size: 16px;
     margin: 0;
     line-height: 1.4;
-    padding: 6px 0 6px 0;
+    padding: 6px 10px 6px 10px;
     text-transform: capitalize;
     letter-spacing: 1.1px;
   }
@@ -261,11 +273,11 @@ footer .container-fluid .row > * {
     flex-direction: column;
   }
   .st002 h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
     font-family: "Nunito";
     text-transform: capitalize;
-    padding: 40px 0 40px 0;
+    padding: 40px 10px 40px 10px;
     width: 100%;
   }
   .st002 h1 > span {
@@ -286,14 +298,14 @@ footer .container-fluid .row > * {
     font-size: 30px;
   }
   .btn1 {
-    color: white;
-    background: #06067f;
+    color: #00f;
+    background: #ffffff;
     line-height: 2.3;
-        padding: 5px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
   }
   .box2 {
     background: #d4d7ed;
-    padding: 5px;
+    padding: 15px 10px 5px 10px;
   }
   .arrow-section {
     margin: 14px 0 14px 0;
@@ -349,8 +361,8 @@ footer .container-fluid .row > * {
   }
   .basic-2 .text-container {
     margin-top: 3rem;
-    margin-right: 0;
-    margin-left: 2rem;
+    margin-right: 15px;
+    margin-left: 15px;
     text-align: center;
   }
   .image-container {
@@ -374,19 +386,17 @@ footer .container-fluid .row > * {
     font-size: 17px;
     text-align: center;
     width: 100%;
-    padding: 50px 0 30px 0;
+    padding: 50px 15px 30px 15px;
     margin-left: auto;
     margin-right: auto;
-    color: #0707b3
+    color: #0707b3;
     font-weight: 500;
   }
- .st006 {
-    padding:0px 5px 0 5px;
+  .st006 {
+    padding: 0px 5px 0 5px;
     margin-bottom: 0;
-}
+  }
   /*-------------------------------- END Section-3----------------------------*/
-
- 
 }
 
 @media (max-width: 768px) {
@@ -396,8 +406,8 @@ footer .container-fluid .row > * {
   }
   .menue1 {
     padding: 9px 0 0 0;
-}
- 
+  }
+
   .menue1 a {
     font-size: 22px;
 
